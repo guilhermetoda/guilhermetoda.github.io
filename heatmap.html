@@ -1,0 +1,310 @@
+<html>
+<body>
+    <style>
+
+        html {
+          font-family: opensans,opensans-bastian,Arial,sans-serif;
+        }
+        body {
+          background-color: #cee6f8;
+          margin: 0px;
+        }
+
+        h1 {
+          margin: 5px;
+        }
+
+        .logo {
+          background: url("images/UI_LOP_TitleSmall.png") no-repeat #51b5ff;
+          background-position: 50px 2px; 
+          width: 100%;
+          height: 300px;
+          margin-left: 0px;
+        }
+
+        .info {
+          margin: 5px;
+        }
+
+        .image {
+            background-image: url("images/mapReduced-400pxLess.png");
+            width: 740px;
+            height: 580px;
+        }
+
+        .image-v2 {
+            background-image: url("images/coffeeshop-v2-nolights.png");
+            width: 1004px;
+            height: 1011px;
+        }
+
+        .image-v6 {
+            background-image: url("images/coffeeshop-v6.png");
+            width: 1142px;
+            height: 708px;
+        }
+
+        .image-v6-engine {
+            background-image: url("images/unity-coffeeshop-v6.png");
+            width: 1103px;
+            height: 708px;
+        }
+        
+        .image-engine-v5 {
+            background-image: url("images/unity-coffeeshop-v5.png");
+            width: 740px;
+            height: 580px;
+        }
+
+        .imagebox 
+        {
+          margin: 5px;
+          float: left;
+        }
+
+        .block 
+        {
+          clear: both;
+        }
+
+    </style>
+
+    <div class="logo"></div>
+
+    <div class="info">
+      <h3>Telemetry System</h3>
+      <p><i>Telemetry built using Back4App database and REST API connected in the development build. All the data in this page is static.</i></p>
+      <p><i>This page shows 3 differents phases for our level design, coffeeshop-v6 is the final level used in the presentation</i></p>
+    </div>
+    <div id="coffeeshop-v6">
+      <h1> Coffee Shop v6 - Heatmap</h1>
+      <div class="imagebox">
+        <h2> In-Engine Heatmap </h2>
+        <div class="image-v6-engine">
+      
+        </div>
+      </div>
+
+      <div class="imagebox">
+        <h2> Heatmap </h2>
+        <div class="image-v6 heatmap-v6-all">
+      
+        </div>
+      </div>
+      <div class="block"></div>
+
+      <div class="imagebox">
+        <h2> Spotted Areas </h2>
+        <div class="image-v6 heatmap-v6-spotted">
+      
+        </div>
+      </div>
+
+      <div class="imagebox">
+        <h2> Caught Areas </h2>
+        <div class="image-v6 heatmap-v6-caught">
+      
+        </div>
+      </div>
+
+      <div class="block"></div>
+      
+      <div>
+        <p>Playtesters: 7</p>
+        <p>Avg. Spotted per player: 20</p>
+        <p>Avg. Got Caught per player: 3.8</p>
+        <p>0 player completed without getting caught</p>
+      </div>
+
+      <div class="block"></div>
+
+    </div>
+
+  <div id="coffeeshop-v5">
+
+      <h1> Coffee Shop V5 - Heatmap</h1>
+
+      <div class="imagebox">
+        <h2> In-Engine Heatmap </h2>
+        <div class="image-engine-v5">
+      
+        </div>
+      </div>
+
+      <div class="imagebox">
+        <h2> Heatmap </h2>
+        <div class="image heatmap">
+      
+        </div>
+      </div>
+      <div class="block"></div>
+
+      <div class="imagebox">
+      
+        <h2> Spotted Areas </h2>
+        <div class="image heatmap-spotted">
+      
+        </div>
+      </div>
+
+      <div class="imagebox">
+        <h2> Caught Areas </h2>
+        <div class="image heatmap-caught">
+      
+        </div>
+      </div>    
+      
+      <div class="block"></div>
+
+      <div>
+        <p>Playtesters: 14</p>
+        <p>Avg. Spotted per player: 8</p>
+        <p>Avg. Got Caught per player: 3</p>
+        <p>2 players completed without getting caught</p>
+      </div>
+
+      <h1> Coffee Shop V5 - Players</h1>
+      
+      <div id="shane-data">      
+        <div class="imagebox">
+          <h2> Shane Heatmap </h2>
+          <div class="image heatmap-shane">
+        
+          </div>
+        </div>
+
+        <div class="imagebox">
+          <h2>Bryce Heatmap </h2>
+          <div class="image heatmap-bryce">
+        
+          </div>
+        </div>
+        <div class="block"></div>
+
+        <div class="imagebox">
+        
+          <h2> Spotted Areas </h2>
+          <div class="image heatmap-spotted-shane">
+        
+          </div>
+        </div>
+
+        <div class="imagebox">
+          <h2> Caught Areas </h2>
+          <div class="image heatmap-caught-shane">
+        
+          </div>
+        </div>   
+    </div>
+    <div class="block"></div>
+    <h1> Bryce </h1>
+    <div id="bryce-data">
+
+      <div class="imagebox">
+      
+        <h2> Spotted Areas </h2>
+        <div class="image heatmap-spotted-bryce">
+      
+        </div>
+      </div>
+
+      <div class="imagebox">
+        <h2> Caught Areas </h2>
+        <div class="image heatmap-caught-bryce">
+      
+        </div>
+      </div>   
+    </div>
+  </div>
+  <div class="block"></div>
+  <div id="coffeeshop-v2">
+    <h1>CoffeeShop V2</h1>
+    <div class="image-v2"></div>
+  </div>
+
+    
+    <script src="js/heatmap.min.js"></script>
+    <script src="js/data.js"></script>
+    <script>
+            window.onload = function() {
+
+              var heatmapv6All = h337.create({
+                container: document.querySelector('.heatmap-v6-all')
+              });
+        
+              heatmapv6All.setData(data_coffeeshopv6_all);
+
+              var heatmapv6Spotted = h337.create({
+                container: document.querySelector('.heatmap-v6-spotted')
+              });
+        
+              heatmapv6Spotted.setData(data_coffeeshopv6_spotted);
+
+              var heatmapv6Caught = h337.create({
+                container: document.querySelector('.heatmap-v6-caught')
+              });
+        
+              heatmapv6Caught.setData(data_coffeeshopv6_caught);
+
+              var heatmapInstance = h337.create({
+                container: document.querySelector('.heatmap')
+              });
+        
+              heatmapInstance.setData(data_coffeeshopv5_all);
+        
+              var heatmapInstanceCaught = h337.create({
+                container: document.querySelector('.heatmap-caught')
+              });
+        
+              heatmapInstanceCaught.setData(data_coffeeshopv5_caught);
+
+              var heatmapInstanceSpotted = h337.create({
+                container: document.querySelector('.heatmap-spotted')
+              });
+        
+              heatmapInstanceSpotted.setData(data_coffeeshopv5_spotted);
+              
+              // Shane Data
+              
+              var heatmapInstanceShane = h337.create({
+                container: document.querySelector('.heatmap-shane')
+              });
+        
+              heatmapInstanceShane.setData(data_coffeeshopv5_shane_all);
+        
+              var heatmapInstanceCaughtShane = h337.create({
+                container: document.querySelector('.heatmap-caught-shane')
+              });
+        
+              heatmapInstanceCaughtShane.setData(data_coffeeshopv5_shane_caught);
+
+              var heatmapInstanceSpottedShane = h337.create({
+                container: document.querySelector('.heatmap-spotted-shane')
+              });
+        
+              heatmapInstanceSpottedShane.setData(data_coffeeshopv5_shane_spotted);
+              
+              // Bryce Data
+              
+              var heatmapInstanceBryce = h337.create({
+                container: document.querySelector('.heatmap-bryce')
+              });
+        
+              heatmapInstanceBryce.setData(data_coffeeshopv5_bryce_all);
+        
+              var heatmapInstanceCaughtBryce = h337.create({
+                container: document.querySelector('.heatmap-caught-bryce')
+              });
+        
+              heatmapInstanceCaughtBryce.setData(data_coffeeshopv5_bryce_caught);
+
+              var heatmapInstanceSpottedBryce = h337.create({
+                container: document.querySelector('.heatmap-spotted-bryce')
+              });
+        
+              heatmapInstanceSpottedBryce.setData(data_coffeeshopv5_bryce_spotted);
+        
+            };
+          </script>
+</body>
+</html>
