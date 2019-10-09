@@ -1,193 +1,380 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
 
-		<title>Guilherme Toda - Gameplay and AI Programmer</title>
+<head>
 
-		<link rel="stylesheet" href="css/bootstrap.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+  <title>Guilherme Toda - Portfolio</title>
 
-		<!-- <link rel="stylesheet" href="css/animate.css"> -->
-		<link rel="stylesheet" href="css/style.css">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
-		<!-- Devicons -->
-		<link rel="stylesheet" href="css/devicon.css">
-	  <link rel="stylesheet" href="css/devicon-colors.css">
+  <!-- Custom styles for this template -->
+  <link href="css/resume.min.css" rel="stylesheet">
 
+</head>
 
-		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- Leave those next 4 lines if you care about users using IE8 -->
-		<!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
+<body id="page-top">
 
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Guilherme Toda</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/mypicture.png" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Games</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#work">Work Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#awards">Publications</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-	</head>
-	<body>
+  <div class="container-fluid p-0">
 
-		<nav class="navbar navbar-default hidden-sm hidden-md hidden-lg navbar-fixed-top">
-			<div class="container-fluid">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Guilherme
+          <span class="text-primary">Toda</span>
+        </h1>
+        <div class="subheading mb-5">Vancouver, BC, Canada
+          <a href="#">guilhermetoda @ gmail . com</a>
+        </div>
+        <p class="lead font-weight-bold">Gameplay and AI engineer with a Masters in Computer Science and a Game Design Diploma. </p>
+        <p>Currently finishing Vancouver Film School Game Design Course.</p> 
+        <p class="lead mb-5">8 years of experience developing highly scalable SaaS systems using Machine Learning and Information Retrieval algorithms applied to retail.</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/guilhermetoda/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/guilhermetoda">
+            <i class="fab fa-github"></i>
+          </a>
+          <!----<a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>--->
+        </div>
+      </div>
+    </section>
 
-			</div>
-		</nav>
+    <hr class="m-0">
 
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">Game Projects</h2>
 
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-img mr-4">
+              <a href="heatmap/heatmap.html"> <img class="mb-1" src="img/LifeOfPigeon.png"/>
+                <img src="img/lifeofpigeongameplay.png"/></a>
+          </div>
+          <div class="resume-content">
+            <h3 class="mb-0">Life Of Pigeon</h3>
+            <div class="subheading mb-3">Game Designer / Programmer </div>
+            <p>3rd person stealth game where the player plays as a Baby Pigeon that wishes to become an adult, but first he needs to complete some tasks, such as, drink wine, coffee and eat spicy food.</p>
+            <p>In this project I was the solo programmer in a team of 4 people, for this game we developed an AI system that reacts to the Baby Pigeon, with the player jumps into their tables the AI will have a "happy meter" decreased and when this meter gets to low value, sad animations will be played.
+               A dialogue system using bubble speech was implemented too, the content of the bubble is based on the happy meter and love meter, if the AI is happy and in love there is a high probability that this AI will ask the other AI to marry. But if the AI is not happy, the AI will answer question in negative way that will make the other AI sad.</p>
+            <p>For this game I developed a <b>Telemetry system to track the most important actions of the player</b>, with that we were able to built heatmaps that shows where the players are avoiding, or where the player are getting caught, or getting spotted by the AI. This systems helped the team to improve the level design and find bugs.</p>
+            <p>The heatmaps used in game are available here: <a href="heatmap/heatmap.html"> here </a></p>
+          </div>
+          
+        </div>
 
-		<div class="container main-container">
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-img mr-4">
+            <img src="img/chefninja.png"/>
+          </div>
+          <div class="resume-content">
+            <h3 class="mb-0">Chef Ninja</h3>
+            <div class="subheading mb-3">Game Designer / Programmer</div>
+            <p>A split-screen co-op game where one player plays as a ninja slicing ingredients and the bottom screen player is chef that needs to create and delivery the meals using the sliced ingredients.</p>
+            <p>Project developed during 2 months in Vancouver Film School.</p>
+            <p>Code available at Gitlab: <a href="https://gitlab.com/guilhermetoda/chefninja">
+              <i class="fab fa-gitlab"></i>
+            </a></p>
+          </div>
+          
+        </div>
 
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="resume-img-snake mr-4">
+              <img src="img/snakegame.gif"/>
+            </div>
+            <div class="resume-content">
+              <h3 class="mb-0">Snake Game - Open GL / C++</h3>
+              <div class="subheading mb-3">Programmer</div>
+              <p>The Snake Game developed using Open GL and C++, the game was coded in C++ using the GLFW library in 1 day as a challenge</p>
+              <p><i>The code will be available at Github </i><a href="#">
+                <!--<i class="fab fa-github"></i>-->
+              </a></p>
+            </div>
+            
+          </div>
 
-			<div class="row">
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-img mr-4">
+            <img src="img/homeworld.png"/>
+          </div>
+          <div class="resume-content">
+            <h3 class="mb-0">Homeword</h3>
+            <div class="subheading mb-3">Programmer</div>
+            <p>A typing game developed during the 2019 Global Game Jam, in this game the player needs to type the words the appears on the screen before the words vanish, if the player keeps a 10 word streak, he can advance to a faster level. <i>This was my first real experience with Unity.</i> </p>
+            <p>Code available at Github: <a href="https://github.com/guilhermetoda/icon-project">
+              <i class="fab fa-github"></i>
+            </a></p>
+          </div>
+        </div>
 
-				<!-- side content -->
-				<div class="col-sm-3 about-me about-side text-center hidden-xs">
-						<img src="img/mypicture.png" width=200 class="profile-pic img-responsive center-block">
-						<h1>Guilherme Toda</h1>
-						<h2>Gameplay and AI Programmer</h2>
-						<h3>Masters in Machine Learning and Game Design Diploma</h3>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-img mr-4">
+            <img src="img/penaltygame.gif"/>
+          </div>
+          <div class="resume-content">
+            <h3 class="mb-0">The Football Penalty!</h3>
+            <div class="subheading mb-3">C# Console Programmer</div>
+            <p>A C# console game developed for my first class at VFS. In this game the player can select a position to shoot the penalty and the amount of power for the shoot, if the shoot is in the middle of the goal and the power to weak the Goal keeper can easily defend, but if the power is too strong the ball can go off target!</p>
+            <p>Code available at Github: <a href="https://github.com/guilhermetoda/penalty-assignment">
+              <i class="fab fa-github"></i>
+            </a></p>
+          </div>
+        </div>
 
-						<div class="text-center" style="margin:20px">
-							<a href="https://gitlab.com/guilhermetoda" class="cta-icon"><i class="devicon-gitlab-plain colored"></i></a>
-                            <a href="https://github.com/guilhermetoda/" class="cta-icon"><i class="devicon-github-plain colored"></i></a>
-                            <a href="https://linkedin.com/in/guilhermetoda/" class="cta-icon"><i class="devicon-linkedin-plain colored"></i></a>
-							<p>guilhermetoda at gmail dot com</p>
-						</div>
-				</div>
+      </div>
 
-				<div class="text-center about-me hidden-sm hidden-md hidden-lg">
-						<img src="img/mypicture.png" width=200 class="profile-pic img-responsive center-block">
-						<h1>Guilherme Toda</h1>
-						<h2>Gameplay and AI Programmer</h2>
-						<h3>Masters in Computer Science and Game Design Diploma</h3>
+    </section>
 
-						<div class="text-center" style="margin:20px">
-							<a href="https://gitlab.com/guilhermetoda" class="cta-icon"><i class="devicon-gitlab-plain colored"></i></a>
-                            <a href="https://github.com/guilhermetoda/" class="cta-icon"><i class="devicon-github-plain colored"></i></a>
-                            <a href="https://linkedin.com/in/guilhermetoda/" class="cta-icon"><i class="devicon-linkedin-plain colored"></i></a>
-							<p>guilhermetoda at gmail dot com</p>
-						</div>
-				</div>
+    <hr class="m-0">
 
-				<div class="bottom-cta hidden-sm hidden-md hidden-lg text-center">
-					<div class="btn btn-success">Get in touch</div>
-				</div>
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Education</h2>
 
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Vancouver Film School</h3>
+            <div class="subheading mb-1">Game Design Diploma</div>
+            <div><i>Programming and Level Design Streams</i></div>
+            <p></p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">October 2018 - October 2019</span>
+          </div>
+        </div>
 
-				<!-- main content -->
-				<div class="col-sm-9 col-sm-offset-3">
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Universidade Federal do Amazonas</h3>
+            <div class="subheading mb-1">Masters in Computer Science</div>
+            <p><i>3rd best computer science masters dissertation in Brazil in 2010</i></p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">April 2008 - April 2010</span>
+          </div>
+        </div>
 
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Universidade Federal do Amazonas</h3>
+            <div class="subheading mb-1">Bachelor in Computer Science</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">March 2004 - April 2008</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-					<div class="row work-item-row">
-							<div class="col-sm-8 col-sm-offset-2 project">
+    <hr class="m-0">
 
-								<img src="img/UI_MainScreenIllust.png" class="img-responsive">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="work">
+      <div class="w-100">
+        <h2 class="mb-5">Work Experience</h2>
 
-								<h2 class="text-center"><a href="heatmap.html" target="blank">Final Project - Life Of Pigeon</a></h2>
-								<p>Life of Pigeon is a 3rd person stealth game where the player plays as a Baby Pigeon that needs to complete some task to become an adult.</p>
-								<h3>Roles: Gameplay / AI Programmer and Game Designer</h3>
-								<p><a href="heatmap.html" target="blank">Telemetry Web page</a></p>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Linx S/A</h3>
+            <div class="subheading mb-1">Senior Software Architect and Senior Software Development Manager</div>
+            <p class="mb-0">Responsible for the development, architecture and live ops of Omni channel products. </p>
+                <p class="ml-4 mb-0">Developed a multitenant REST API able to receive many retail brands.</p>
+                <p class="ml-4 mb-2">Created a highly scalable system able to receive all orders, product stock and freight requests from all (physical and online) stores.</p>
+               
+               <p class="mb-0">Technologies used</p>
+               <p class="ml-4 mb-0">NodeJS, PHP and MySQL (Backend development).</p>
+               <p class="ml-4 mb-0">Python, Perl and Bash Script</p>
+               <p class="ml-4 mb-0">AngularJS and React (Frontend development).</p>
+               <p class="ml-4 mb-0">AWS services: Elastic Search, Lambda, SQS and DynamoDB.</p>
+               <p class="ml-4 mb-4">Agile methodologies as Scrum and Kanban.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2015 - September 2018</span>
+          </div>
+        </div>
 
-								<div class="row text-center">
-									<div class="col-xs-12">
-										<!--<img src="img/techlogos/jquery.png" class="techlogo" width="100">
-										<img src="img/techlogos/bootstrap.png" class="techlogo" width="100">
-										<img src="img/techlogos/node.png" class="techlogo" width="100">
-										<img src="img/techlogos/heroku.png" class="techlogo" width="100">-->
-									</div>
-								</div>
-								<div class="row text-center" style="margin:20px;">
-										<!----<a href="https://gitlab.com/guilhermetoda/chefninja" target="blank"><i class="devicon-gitlab-plain colored"></i> Gitlab</a>-->
-								</div>
-							</div>
-					</div>
-                    
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+            <div class="resume-content">
+              <h3 class="mb-0">Neemu</h3>
+              <div class="subheading mb-1">Co-Founder / CTO / Software Engineer</div>
+              <p class="mb-0">Led a technology team and developed the main e-commerce search engine of Brazil. </p>
+                  <p class="ml-4 mb-0">Developed a multitenant REST API able to receive many retail brands.</p>
+                  <p class="ml-4 mb-2"> <a href="http://ri.linx.com.br/noticia/linx-anuncia-aquisicao-da-chaordic-e-da-neemu/?lang=en">In September 2015, Neemu was acquired by Linx.</a></p>
+                 
+                 <p class="mb-0">Technologies used</p>
+                 <p class="ml-4 mb-0">Search Engine and Recommendation system based on information retrieval and machine learning algorithms developed with C/C++.</p>
+                 <p class="ml-4 mb-0">PHP and Python (Backend development).</p>
+                 <p class="ml-4 mb-0">JavaScript (Frontend development).</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">October 2010 - September 2015</span>
+            </div>
+          </div>
 
-                    <div class="row work-item-row">
-                        <div class="col-sm-8 col-sm-offset-2 project">
+    </section>
 
-                            <img src="img/chefninja.png" class="img-responsive">
+    <!--<hr class="m-0">
 
-                            <h2 class="text-center"><a href="heatmap.html" target="blank">Chef Ninja</a></h2>
-                            <p>Couch co-op game where one player plays as Ninja slicing ingredients and the other player prepares the meal with the ingredients in the kitchen</p>
-                            <h3>Roles: Programmer and Game Designer</h3>
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
 
-                            <div class="row text-center">
-                                <div class="col-xs-12">
-                                    <!--<img src="img/techlogos/jquery.png" class="techlogo" width="100">
-                                    <img src="img/techlogos/bootstrap.png" class="techlogo" width="100">
-                                    <img src="img/techlogos/node.png" class="techlogo" width="100">
-                                    <img src="img/techlogos/heroku.png" class="techlogo" width="100">-->
-                                </div>
-                            </div>
-                            <div class="row text-center" style="margin:20px;">
-                                    <a href="https://gitlab.com/guilhermetoda/chefninja" target="blank"><i class="devicon-github-plain colored"></i> Github</a>
-                            </div>
-                        </div>
-                </div>
-					
-				<div class="row work-item-row">
-					<div class="col-sm-8 col-sm-offset-2 project">
+        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="fab fa-html5"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-css3-alt"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-js-square"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-angular"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-react"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-node-js"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-sass"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-less"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-wordpress"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-gulp"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-grunt"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-npm"></i>
+          </li>
+        </ul>
 
-						<img src="images/penaltygame.gif" class="img-responsive">
+        <div class="subheading mb-3">Workflow</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Mobile-First, Responsive Design</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Cross Browser Testing &amp; Debugging</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Cross Functional Teams</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Agile Development &amp; Scrum</li>
+        </ul>
+      </div>
+    </section>-->
 
-						<h2 class="text-center"><a href="#" target="blank">Penalty Game - C# Console Game</a></h2>
-						<p>A C# Console game that I made for a class during my first term in VFS</p>
-						
+    <hr class="m-0">
 
-						<div class="row text-center">
-							<div class="col-xs-12">
-								<!--<img src="img/techlogos/jquery.png" class="techlogo" width="100">
-								<img src="img/techlogos/bootstrap.png" class="techlogo" width="100">
-								<img src="img/techlogos/node.png" class="techlogo" width="100">
-								<img src="img/techlogos/heroku.png" class="techlogo" width="100">-->
-							</div>
-						</div>
-						<div class="row text-center" style="margin:20px;">
-								<a href="https://gitlab.com/guilhermetoda/penalty-assignment" target="blank"><i class="devicon-github-plain colored"></i> Github</a>
-						</div>
-					</div>
-				</div>
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+      <div class="w-100">
+        <h2 class="mb-5">Interests</h2>
+        <p>I am huge sports fan, I follow almost all the big football leagues in the world (Brasileirão, Premier League, La Liga, Serie A, Ligue 1, Libertadores and Champions League), NBA, NFL and NHL. In 2014 I went to the NBA Finals at San Antonio (Spurs vs Cavs) and to the FIFA World Cup Finals in Rio de Janeiro (I was in the 7x1 too).</p>
+        <p class="mb-0">I love video games, I played video games for my whole life, the games that I love most are Football Manager, FIFA, NBA 2k, Uncharted and God Of War.</p>
+      </div>
+    </section>
 
+    <hr class="m-0">
 
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+      <div class="w-100">
+        <h2 class="mb-5">Awards &amp; Publications</h2>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-scroll text-warning"></i>
+            <a href="http://www.vldb.org/pvldb/vol4/p151-toda.pdf">VLDB 2011 - A Probabilistic Approach for Automatically Filling Form-Based Web Interfaces</a>
+          </li>
+          <li>
+            <i class="fa-li fa fa-scroll text-warning"></i>
+            <a href="http://dl.acm.org/citation.cfm?id=1526908">WWW 2009 - Automatically filling form-based web interfaces with free text inputs</a>
+          </li>
+          <li>
+            <i class="fa-li fa fa-scroll text-warning"></i>
+            <a href="http://www.lbd.dcc.ufmg.br/colecoes/wtdbd/2009/007.pdf">WTD / SBBD 2009 - Preenchimento Automático de Formulários Web Utilizando Texto Livre</a>
+          </li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            Top 3 dissertations in Computer Science of Brazil in 2011 (CTD 2011)
+          </li>
+          
+        </ul>
+      </div>
+    </section>
 
+  </div>
 
-			
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-					
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-				</div> <!-- end main content -->
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
 
+</body>
 
-
-			</div>
-
-
-
-
-
-		</div>
-
-
-		<!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
-		<script src="js/jquery-3.1.0.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<!-- <script src="js/myScripts.js"></script> -->
-
-		<script>
-			$(document).scroll(function() {
-			  var y = $(this).scrollTop();
-			  if (y > 500) {
-			    $('.bottom-cta').slideDown();
-			  } else {
-			    $('.bottom-cta').slideUp();
-			  }
-			});
-		</script>
-
-	</body>
 </html>
